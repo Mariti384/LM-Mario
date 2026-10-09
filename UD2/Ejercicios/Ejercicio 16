@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="utf-8">
+      <title>Recetas</title>
+  </head>
+  <body>
+    <h1>Patatas fritas</h1>
+        <hr>
+        <figure> 
+            <img src="Imágenes/16-patatas-fritas.png" alt="patatas fritas"/>
+            <figcaption>Patatas fritas caseras</figcaption> 
+        </figure>
+  </body>
+</html>

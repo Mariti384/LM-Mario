@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="utf-8">
+      <title>Ejercicio 14</title>
+  </head>
+  <body>
+    <h1>Imágenes</h1>
+<h2>Grudon</h2> 
+    <figure> 
+        <img src="Groudon.png" 
+            alt="Pokémon legendario Groudon"  
+            idth="350" height="400" />
+        <figcaption>Pokémon legendario Groudon</figcaption> 
+    </figure>
+<h2>Kyogre</h2> 
+    <figure> 
+        <img src="Imágenes/Kyogre.png" 
+            alt="Pokémon legendario Kyogre">
+        <figcaption>Pokémon legendario Kyogre</figcaption> 
+    </figure>
+  </body>
+</html>
