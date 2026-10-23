@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="utf-8">
+      <title>Formulario de incidencia</title>
+  </head>
+  <body>
+    <form action="incidencia.php" method="get"></form>
+      <fieldset>
+        <legend>Datos del usuario</legend>
+        <label for="usuario">Usuario</label>
+        <input type="text" id="usuario" name="usuario" placeholder="Nombre y apellidos" maxlenght="25" size="25" />
+        <label for="alumno">Alumno</label>
+        <input type="radio" name="rol" id="alumno" value="Alumno" /> <br />
+        <label for="profesor">Profesor</label>
+        <input type="radio" name="rol" id="profesor" value="Profesor" /> <br />
+      </fieldset>
+      <fieldset>
+        <legend>Donde se produce</legend>
+        <label for="departamento">Departamento</label>
+        <input type="radio" name="lugar" id="departamento" value="Departamento" /> <br />
+        <label for="aula">Aula</label>
+        <input type="radio" name="lugar" id="aula" value="Aula" /> <br />
+        <label for="equipo">Equipo</label>
+        <input type="radio" name="lugar" id="equipo" value="Equipo" checked="checked" /> <br />
+        <label for="usuario">Identifica el dpto,aula o equipo</label>
+        <input type="text" id="identificación" name="identificación" maxlenght="15" size="15" />
+      </fieldset>
+      <fieldset>
+        <legend>Información sobre la incidencia</legend>
+        <label for="descripción">Descripción de la incidencia</label>
+        <input type="text" id="descripción" name="descripción" maxlenght="100" size="100" />
+        <label for="alto">Alto</label>
+        <input type="radio" name="nivel" id="alto" value="Alto" /> <br />
+        <label for="medio">Medio</label>
+        <input type="radio" name="nivel" id="medio" value="Medio" /> <br />
+        <label for="bajo">Bajo</label>
+        <input type="radio" name="nivel" id="bajo" value="Bajo" checked="checked"/> <br />
+        <label for="aviso">Me gustaría ser avisado por emai cuando se resuelva la incidencia</label>
+        <input type="checkbox" name="aviso" id="aviso" value="avisar" checked="checked" />
+      </fieldset>
+      <input type="submit" value="Entrar"/>
+      <input type="reset" value="Limpiar"/>
+    </form>
+  </body>
+</html>
