@@ -9,33 +9,33 @@
       <fieldset>
         <legend>Datos del usuario</legend>
         <label for="usuario">Usuario</label>
-        <input type="text" id="usuario" name="usuario" placeholder="Nombre y apellidos" maxlenght="25" size="25" />
-        <label for="alumno">Alumno</label>
-        <input type="radio" name="rol" id="alumno" value="Alumno" /> <br />
+        <input type="text" id="usuario" name="usuario" placeholder="Nombre y apellidos" maxlenght="25" size="25" /> <br />
+        <input type="radio" name="rol" id="alumno" value="Alumno" />
+        <label for="alumno">Alumno</label> <br />
+        <input type="radio" name="rol" id="profesor" value="Profesor" />
         <label for="profesor">Profesor</label>
-        <input type="radio" name="rol" id="profesor" value="Profesor" /> <br />
       </fieldset>
       <fieldset>
         <legend>Donde se produce</legend>
-        <label for="departamento">Departamento</label>
-        <input type="radio" name="lugar" id="departamento" value="Departamento" /> <br />
-        <label for="aula">Aula</label>
-        <input type="radio" name="lugar" id="aula" value="Aula" /> <br />
-        <label for="equipo">Equipo</label>
-        <input type="radio" name="lugar" id="equipo" value="Equipo" checked="checked" /> <br />
+        <input type="radio" name="lugar" id="departamento" value="Departamento" />
+        <label for="departamento">Departamento</label> <br />
+        <input type="radio" name="lugar" id="aula" value="Aula" />
+        <label for="aula">Aula</label> <br />
+        <input type="radio" name="lugar" id="equipo" value="Equipo" checked="checked" />
+        <label for="equipo">Equipo</label> <br />
         <label for="usuario">Identifica el dpto,aula o equipo</label>
         <input type="text" id="identificación" name="identificación" maxlenght="15" size="15" />
       </fieldset>
       <fieldset>
         <legend>Información sobre la incidencia</legend>
         <label for="descripción">Descripción de la incidencia</label>
-        <input type="text" id="descripción" name="descripción" maxlenght="100" size="100" />
-        <label for="alto">Alto</label>
-        <input type="radio" name="nivel" id="alto" value="Alto" /> <br />
-        <label for="medio">Medio</label>
-        <input type="radio" name="nivel" id="medio" value="Medio" /> <br />
-        <label for="bajo">Bajo</label>
-        <input type="radio" name="nivel" id="bajo" value="Bajo" checked="checked"/> <br />
+        <input type="text" id="descripción" name="descripción" placeholder="Describe el problema con detalle" maxlenght="100" size="100" />
+        <input type="radio" name="nivel" id="alto" value="Alto" />
+        <label for="alto">Alto</label> <br />
+        <input type="radio" name="nivel" id="medio" value="Medio" />
+        <label for="medio">Medio</label> <br />
+        <input type="radio" name="nivel" id="bajo" value="Bajo" checked="checked"/>
+        <label for="bajo">Bajo</label> <br />
         <label for="aviso">Me gustaría ser avisado por emai cuando se resuelva la incidencia</label>
         <input type="checkbox" name="aviso" id="aviso" value="avisar" checked="checked" />
       </fieldset>
